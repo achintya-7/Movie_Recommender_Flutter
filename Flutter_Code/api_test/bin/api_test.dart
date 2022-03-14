@@ -14,14 +14,14 @@ import 'package:http/http.dart';
 // }
 
 makePostRequest() async {
-  final uri = Uri.parse('http://localhost:2205/search');
+  final uri = Uri.parse('http://192.168.1.9:12345/search');
   final headers = {'Content-Type': 'application/json'};
   var final_data = [];
   Map<String, dynamic> body = {
     "data": [
-      {"text": "Action"}
+      {"text": "comedy"}
     ],
-    "parameters": {"limit": 5}
+    "parameters": {"limit": 10}
   };
   String jsonBody = json.encode(body);
   final encoding = Encoding.getByName('utf-8');
@@ -40,7 +40,7 @@ makePostRequest() async {
   final_data = convertedData['data'][0]['matches'];
 
   for (var item in final_data) {
-    print(item['tags']['title']);
+    print(item['tags']['Title']);
   }
 }
 
