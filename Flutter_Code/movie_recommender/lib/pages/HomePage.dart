@@ -67,6 +67,8 @@ class _HomePageState extends State<HomePage> {
         _isLoading = 0;
       });
     }
+
+    CatalogModel.Items.toSet().toList();
   }
 
   @override
