@@ -21,7 +21,9 @@ Note: You might need to chnage the Url link according to the app.py output.
    This will form an app with a full UI with a search bar and ListView to display the data
 
 # Demo
-# Blog![1_pxDC0PHvCHDEZMes4XRLCw](https://user-images.githubusercontent.com/67036708/166519229-17e291bf-b148-4bb3-97f1-c48f4acf089a.gif)
+![1_pxDC0PHvCHDEZMes4XRLCw](https://user-images.githubusercontent.com/67036708/166519229-17e291bf-b148-4bb3-97f1-c48f4acf089a.gif)
+<br/><br/>
 
+# Blog
 Check out the blog about this blog as well to get a better understanding of this project.
 https://medium.com/p/933ebe118c30
